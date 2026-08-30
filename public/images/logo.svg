@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+  <!-- Medical Care Emblem: Healing Tree & Caring Hands -->
+  <g transform="translate(10, 8)">
+    <circle cx="32" cy="32" r="32" fill="url(#logo_grad)" />
+    <!-- Outer Healing Leaves (Green) -->
+    <path d="M32 10C35 18 42 22 50 20C47 28 42 33 32 35C22 33 17 28 14 20C22 22 29 18 32 10Z" fill="#10B981" />
+    <path d="M32 15C34 22 38 25 44 24C41 29 38 32 32 34C26 32 23 29 20 24C26 25 30 22 32 15Z" fill="#34D399" />
+    
+    <!-- Caring Hands / Base (Teal / Blue) -->
+    <path d="M20 38C24 35 28 36 32 38C36 36 40 35 44 38C41 45 36 50 32 54C28 50 23 45 20 38Z" fill="#0284C7" />
+    
+    <!-- Medical Cross Core (White) -->
+    <path d="M30 26H34V38H30Z" fill="white" />
+    <path d="M26 30H38V34H26Z" fill="white" />
+    <circle cx="32" cy="32" r="2.5" fill="#10B981" />
+  </g>
+
+  <!-- Hospital Brand Typography -->
+  <g transform="translate(84, 18)">
+    <!-- "SHRI SAI" -->
+    <text x="0" y="24" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="24" font-weight="800" fill="#0F172A" letter-spacing="-0.5">
+      SHRI SAI
+    </text>
+    
+    <!-- "MULTISPECIALITY HOSPITAL" -->
+    <rect x="0" y="32" width="200" height="18" rx="4" fill="#0284C7" />
+    <text x="100" y="44.5" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="9" font-weight="700" fill="white" letter-spacing="1.2" text-anchor="middle">
+      MULTISPECIALITY HOSPITAL
+    </text>
+  </g>
+
+  <defs>
+    <linearGradient id="logo_grad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0284C7" stop-opacity="0.12" />
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0.04" />
+    </linearGradient>
+  </defs>
+</svg>

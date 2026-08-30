@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#0284C7"/>
+  <circle cx="32" cy="32" r="28" fill="#0369A1" />
+  <!-- Leaves (Green) -->
+  <path d="M32 10C35 18 42 22 50 20C47 28 42 33 32 35C22 33 17 28 14 20C22 22 29 18 32 10Z" fill="#10B981" />
+  <!-- Hands (Light Blue) -->
+  <path d="M20 38C24 35 28 36 32 38C36 36 40 35 44 38C41 45 36 50 32 54C28 50 23 45 20 38Z" fill="#38BDF8" />
+  <!-- White Cross -->
+  <path d="M30 26H34V38H30Z" fill="white" />
+  <path d="M26 30H38V34H26Z" fill="white" />
+</svg>

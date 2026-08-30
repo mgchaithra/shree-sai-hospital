@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shrisai-hospital.vercel.app/sitemap.xml
