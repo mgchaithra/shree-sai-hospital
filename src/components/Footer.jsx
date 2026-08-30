@@ -64,13 +64,13 @@ export default function Footer({ onOpenAppointment }) {
         {/* 4-Column Main Footer Links */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-slate-800/80">
           
-          {/* Col 1: About Hospital (4 cols) */}
+          {/* Col 1: About Hospital & Prominent Logo (4 cols) */}
           <div className="lg:col-span-4 space-y-4">
-            <div className="p-2 bg-white rounded-2xl inline-block shadow-md">
+            <div className="p-3 sm:p-4 bg-white rounded-2xl inline-block shadow-lg border border-slate-100">
               <img
                 src="/images/logo.jpg"
                 alt="Shri Sai Multispeciality Hospital"
-                className="h-12 w-auto object-contain rounded-lg"
+                className="h-16 sm:h-20 w-auto object-contain rounded-xl"
               />
             </div>
 

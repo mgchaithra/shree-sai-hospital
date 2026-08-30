@@ -24,23 +24,26 @@ export default function AboutSection({ onOpenAppointment }) {
               <img
                 src="/images/hospital-campus-overview.jpg"
                 alt="Shri Sai Hospital Talikot Master Campus Aerial View"
-                className="w-full h-80 sm:h-[440px] object-cover group-hover:scale-105 transition-transform duration-700"
+                className="w-full h-80 sm:h-[460px] object-cover group-hover:scale-105 transition-transform duration-700"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-transparent to-transparent"></div>
               
-              <div className="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-white/95 backdrop-blur-md shadow-lg border border-white">
-                <div className="flex items-center gap-3">
-                  <img
-                    src="/images/logo.jpg"
-                    alt="Shri Sai Hospital"
-                    className="h-10 w-auto object-contain shrink-0 rounded-md"
-                  />
-                  <div className="border-l border-slate-200 pl-3">
-                    <h4 className="text-xs sm:text-sm font-bold text-slate-900">
+              {/* Highlighted Logo Badge in Campus View */}
+              <div className="absolute bottom-6 left-6 right-6 p-4 sm:p-5 rounded-2xl bg-white/95 backdrop-blur-md shadow-2xl border-2 border-hospital-100">
+                <div className="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
+                  <div className="p-1 bg-white rounded-xl shadow-sm shrink-0">
+                    <img
+                      src="/images/logo.jpg"
+                      alt="Shri Sai Hospital Logo"
+                      className="h-14 sm:h-18 w-auto object-contain"
+                    />
+                  </div>
+                  <div className="border-t sm:border-t-0 sm:border-l border-slate-200 pt-2 sm:pt-0 sm:pl-4">
+                    <h4 className="text-sm sm:text-base font-extrabold text-slate-900">
                       Modern Multi-Acre Campus
                     </h4>
-                    <p className="text-[11px] text-slate-600">
-                      Spacious visitor parking, recovery lawns, and dedicated emergency driveways.
+                    <p className="text-xs text-slate-600 mt-0.5">
+                      Spacious visitor parking, recovery lawns, and dedicated emergency driveways in Talikot.
                     </p>
                   </div>
                 </div>
@@ -61,7 +64,7 @@ export default function AboutSection({ onOpenAppointment }) {
 
           {/* Right Text Column */}
           <div className="lg:col-span-6 space-y-6">
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-hospital-50 text-hospital-700 text-xs font-bold uppercase tracking-wider border border-hospital-200">
+            <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-hospital-50 text-hospital-700 text-xs font-bold uppercase tracking-wider border border-hospital-200">
               <HeartHandshake className="w-3.5 h-3.5 text-hospital-600" />
               <span>About Our Institution</span>
             </div>
@@ -105,7 +108,7 @@ export default function AboutSection({ onOpenAppointment }) {
             <div className="flex flex-wrap items-center gap-4 pt-2">
               <button
                 onClick={onOpenAppointment}
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-hospital-600 hover:bg-hospital-700 text-white font-semibold text-sm transition-colors shadow-sm"
+                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-hospital-600 hover:bg-hospital-700 text-white font-bold text-sm transition-colors shadow-md"
               >
                 <span>Consult Our Doctors</span>
                 <ArrowRight className="w-4 h-4" />
@@ -113,7 +116,7 @@ export default function AboutSection({ onOpenAppointment }) {
 
               <a
                 href={`tel:${hospitalData.contact.emergencyNumberRaw}`}
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-semibold text-sm transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-sm transition-colors"
               >
                 <Phone className="w-4 h-4 text-hospital-600" />
                 <span>Call: {hospitalData.contact.emergencyNumber}</span>
