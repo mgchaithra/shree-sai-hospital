@@ -3,7 +3,7 @@ export const hospitalData = {
   subtitle: "Multispeciality Hospital",
   tagline: "Advanced Multispeciality Healthcare in Talikot",
   heroDescription: "Committed to clinical excellence, compassionate care, and 24/7 emergency response for the community of Talikot and Bijapur district.",
-  aboutText: "Shri Sai Hospital is Talikot's premier modern healthcare institution, delivering advanced multispeciality medical, surgical, and diagnostic care. Equipped with state-of-the-art Operation Theatres, a cutting-edge Intensive Care Unit (ICU), 24/7 Emergency & Trauma support, and comprehensive in-house pathology and radiology services, our expansive campus bridges the gap in rural and semi-urban healthcare with world-class clinical standards.",
+  aboutText: "Under the medical leadership of Dr. Gangambika Patil and a dedicated team of clinical specialists, Shri Sai Hospital is Talikot's premier modern healthcare institution. Delivering advanced multispeciality medical, maternity, surgical, and diagnostic care, our campus is equipped with modern Operation Theatres, an Intensive Care Unit (ICU), 24/7 Emergency & Trauma support, and comprehensive in-house pathology and radiology services.",
   
   contact: {
     emergencyNumber: "+91 91548 29740",
@@ -77,6 +77,21 @@ export const hospitalData = {
 
   departments: [
     {
+      id: "obstetrics-gynecology",
+      title: "Obstetrics & Gynecology (Maternity)",
+      iconName: "Baby",
+      description: "Complete women's healthcare from pre-pregnancy counseling, painless normal deliveries, high-risk pregnancy care to Caesarean sections (LSCS).",
+      features: [
+        "Normal & Painless Delivery Management",
+        "Emergency Caesarean Section (LSCS)",
+        "High-Risk Pregnancy & Antenatal Care",
+        "Infertility & Gynecological Care"
+      ],
+      headDoctor: "Dr. Gangambika Patil, MS (OBG), DGO",
+      tag: "Dedicated Labor Suite",
+      image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80"
+    },
+    {
       id: "general-medicine",
       title: "General Medicine & Critical Care",
       iconName: "Stethoscope",
@@ -85,9 +100,9 @@ export const hospitalData = {
         "Adult & Geriatric Comprehensive Care",
         "Diabetes, Thyroid & Hypertension Management",
         "Fever, Dengue, Malaria & Infection Protocols",
-        "Respiratory & Pulmonary Care Unit"
+        "Respiratory & Intensive Care Unit"
       ],
-      headDoctor: "Dr. Anand Kulkarni, MD",
+      headDoctor: "Dr. Prajwal Sarawad, MBBS, MD",
       tag: "24/7 Inpatient Available",
       image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80"
     },
@@ -105,21 +120,6 @@ export const hospitalData = {
       headDoctor: "Dr. Veerendra Patil, MS (Ortho)",
       tag: "Advanced C-Arm OT",
       image: "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=600&q=80"
-    },
-    {
-      id: "obstetrics-gynecology",
-      title: "Obstetrics & Gynecology (Maternity)",
-      iconName: "Baby",
-      description: "Complete women's healthcare from pre-pregnancy counseling, painless normal deliveries, high-risk pregnancy care to Caesarean sections (LSCS).",
-      features: [
-        "Normal & Painless Delivery Management",
-        "Emergency Caesarean Section (LSCS)",
-        "High-Risk Pregnancy & Antenatal Care",
-        "Infertility & Gynecological Laparoscopy"
-      ],
-      headDoctor: "Dr. Sunita Patil, MS (OBG), DGO",
-      tag: "Dedicated Labor Suite",
-      image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80"
     },
     {
       id: "pediatrics",
@@ -251,26 +251,37 @@ export const hospitalData = {
 
   doctors: [
     {
+      id: "dr-gangambika-patil",
+      name: "Dr. Gangambika Patil",
+      degrees: "MBBS, MS (OBG), DGO",
+      department: "Obstetrics & Gynecology (Maternity)",
+      designation: "Hospital Director & Senior Consultant Gynecologist",
+      experience: "16+ Years Experience",
+      opdTiming: "10:00 AM – 02:00 PM & 05:00 PM – 08:00 PM (Mon – Sat)",
+      specialties: ["High-Risk Pregnancy Management", "Painless Normal Delivery", "Infertility Counseling", "Gynecological Laparoscopy & LSCS"],
+      image: "https://images.unsplash.com/photo-1594824813515-54641bbd067e?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      id: "dr-prajwal-sarawad",
+      name: "Dr. Prajwal Sarawad",
+      degrees: "MBBS, MD (General Medicine)",
+      department: "General Medicine & Critical Care",
+      designation: "Consultant General Physician & Intensivist",
+      experience: "12+ Years Experience",
+      opdTiming: "09:30 AM – 01:30 PM & 04:30 PM – 08:00 PM (Mon – Sat)",
+      specialties: ["Diabetes & Hypertension Care", "Infectious Diseases & Fever Protocols", "Critical Care & ICU Management", "Cardio-Metabolic Disorders"],
+      image: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=500&q=80"
+    },
+    {
       id: "dr-suresh-deshmukh",
       name: "Dr. Suresh Deshmukh",
       degrees: "MBBS, MS (General Surgery), FIAGES",
       department: "General & Laparoscopic Surgery",
-      designation: "Chief Surgeon & Medical Director",
-      experience: "16+ Years Experience",
+      designation: "Chief Surgeon & Consultant",
+      experience: "15+ Years Experience",
       opdTiming: "10:00 AM – 02:00 PM & 05:00 PM – 08:00 PM (Mon – Sat)",
       specialties: ["Laparoscopic Surgery", "Hernia & Appendectomy", "Trauma Care", "Gastrointestinal Surgery"],
       image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=500&q=80"
-    },
-    {
-      id: "dr-sunita-patil",
-      name: "Dr. Sunita Patil",
-      degrees: "MBBS, MS (OBG), DGO",
-      department: "Obstetrics & Gynecology",
-      designation: "Senior Consultant Gynecologist & Obstetrician",
-      experience: "14+ Years Experience",
-      opdTiming: "10:30 AM – 01:30 PM & 05:30 PM – 07:30 PM (Mon – Sat)",
-      specialties: ["High-Risk Pregnancy", "Painless Normal Delivery", "Infertility Management", "Gynecological Surgery"],
-      image: "https://images.unsplash.com/photo-1594824813515-54641bbd067e?auto=format&fit=crop&w=500&q=80"
     },
     {
       id: "dr-veerendra-patil",
@@ -278,21 +289,10 @@ export const hospitalData = {
       degrees: "MBBS, MS (Orthopedics), DNB",
       department: "Orthopedics & Joint Care",
       designation: "Senior Orthopedic & Trauma Surgeon",
-      experience: "12+ Years Experience",
+      experience: "14+ Years Experience",
       opdTiming: "11:00 AM – 03:00 PM & 06:00 PM – 08:30 PM (Mon – Sat)",
       specialties: ["Complex Fracture Plating", "Joint Replacement", "Arthroscopy", "Spine Management"],
       image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=500&q=80"
-    },
-    {
-      id: "dr-anand-kulkarni",
-      name: "Dr. Anand Kulkarni",
-      degrees: "MBBS, MD (General Medicine)",
-      department: "General Medicine & Critical Care",
-      designation: "Consultant Physician & Intensivist",
-      experience: "15+ Years Experience",
-      opdTiming: "09:30 AM – 01:30 PM & 04:30 PM – 07:30 PM (Mon – Sat)",
-      specialties: ["Diabetes & Thyroid Management", "Critical Care & ICU", "Infectious Diseases", "Cardio-Metabolic Health"],
-      image: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=500&q=80"
     },
     {
       id: "dr-ramesh-biradar",
@@ -391,7 +391,7 @@ export const hospitalData = {
       name: "Savitri Kulkarni",
       location: "Muddebihal",
       rating: 5,
-      comment: "We had our baby delivered at Shri Sai Hospital under Dr. Sunita Patil's supervision. The maternity team and nurses were extremely gentle and professional. Highly recommend their gynecology and maternity facilities to all mothers in the district.",
+      comment: "We had our baby delivered at Shri Sai Hospital under Dr. Gangambika Patil's supervision. The maternity team and nurses were extremely gentle and professional. Highly recommend their gynecology and maternity facilities to all mothers in the district.",
       department: "Obstetrics & Maternity"
     },
     {
