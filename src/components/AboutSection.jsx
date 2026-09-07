@@ -23,7 +23,7 @@ export default function AboutSection({ onOpenAppointment }) {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-slate-100 group">
               <img
                 src="/images/hospital-campus-overview.jpg"
-                alt="Shri Sai Hospital Talikot Master Campus Aerial View"
+                alt="Shree Sai Hospital Talikot Master Campus Aerial View"
                 className="w-full h-80 sm:h-[460px] object-cover group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-transparent to-transparent"></div>
@@ -33,8 +33,8 @@ export default function AboutSection({ onOpenAppointment }) {
                 <div className="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
                   <div className="p-1 bg-white rounded-xl shadow-sm shrink-0">
                     <img
-                      src="/images/logo.jpg"
-                      alt="Shri Sai Hospital Logo"
+                      src="/images/logo.png"
+                      alt="Shree Sai Hospital Logo"
                       className="h-14 sm:h-18 w-auto object-contain"
                     />
                   </div>
@@ -100,6 +100,26 @@ export default function AboutSection({ onOpenAppointment }) {
                 </div>
                 <p className="text-xs text-slate-600">
                   Landscaped walking gardens, clean airy inpatient wards, and ethical patient-first medical care.
+                </p>
+              </div>
+            </div>
+
+            {/* Medical Leadership Spotlight with Authentic Photo */}
+            <div className="p-4 rounded-2xl bg-gradient-to-r from-hospital-50 via-sky-50/60 to-white border border-hospital-200/80 shadow-soft flex items-center gap-4">
+              <img
+                src="/images/dr-gangambika-patil.jpg"
+                alt="Dr. Gangambika Patil - Medical Director"
+                className="w-16 h-16 sm:w-18 sm:h-18 rounded-2xl object-cover object-top border-2 border-white shadow-md shrink-0"
+              />
+              <div>
+                <div className="text-[11px] font-extrabold text-hospital-700 uppercase tracking-wider">
+                  Medical Leadership
+                </div>
+                <h4 className="text-base sm:text-lg font-extrabold text-slate-900 leading-tight">
+                  Dr. Gangambika Patil
+                </h4>
+                <p className="text-xs text-slate-600 mt-0.5">
+                  MBBS, MS (OBG), DGO • Hospital Director & Senior Consultant Gynecologist
                 </p>
               </div>
             </div>

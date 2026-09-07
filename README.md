@@ -1,6 +1,6 @@
-# 🏥 Shri Sai Multispeciality Hospital — Showcase Website
+# 🏥 Shree Sai Multispeciality Hospital — Showcase Website
 
-A fast, modern, responsive, and 100% static showcase website for **Shri Sai Multispeciality Hospital**, located in Talikot, Bijapur (Vijayapura) district, Karnataka.
+A fast, modern, responsive, and 100% static showcase website for **Shree Sai Multispeciality Hospital**, located in Talikot, Bijapur (Vijayapura) district, Karnataka.
 
 Built with **React 18+**, **Vite**, **Tailwind CSS v3.4**, **Lucide Icons**, and configured with **Schema.org JSON-LD** structured data for local Google Search discoverability and Google Maps visibility.
 
@@ -43,11 +43,11 @@ Built with **React 18+**, **Vite**, **Tailwind CSS v3.4**, **Lucide Icons**, and
 hospital-website-2/
 ├── public/
 │   ├── favicon.svg             # Hospital favicon
-│   ├── logo.jpg                # Official Shri Sai Hospital logo
+│   ├── logo.png                # Official Shree Sai Hospital logo
 │   ├── robots.txt              # Search engine crawler directives
 │   ├── sitemap.xml             # XML sitemap for SEO indexing
 │   └── images/
-│       ├── logo.jpg            # Unmodified official hospital logo
+│       ├── logo.png            # High-resolution Shree Sai Hospital logo
 │       ├── hospital-entrance-aerial.jpg  # Main entrance gate & driveway
 │       ├── hospital-campus-overview.jpg  # Bird's-eye campus masterplan
 │       ├── hospital-garden-lawn.jpg      # Landscaped recovery lawn
@@ -174,12 +174,12 @@ vercel
 
 ## 📍 Hospital Contact & Location
 
-- **Hospital Name**: Shri Sai Multispeciality Hospital
+- **Hospital Name**: Shree Sai Multispeciality Hospital
 - **Address**: Main Road, Talikot - 586214, Bijapur (Vijayapura) District, Karnataka, India
-- **Emergency Hotline**: `+91 91548 29740` / `+91 91548 29741`
+- **Emergency Hotline**: `+91 88613 51881`
 - **Operating Hours**: 24 Hours Open (Casualty, ICU, Pharmacy, Ambulance) | OPD: 09:00 AM – 08:00 PM
 
 ---
 
 ## 📄 License
-© Shri Sai Multispeciality Hospital, Talikot. All rights reserved.
+© Shree Sai Multispeciality Hospital, Talikot. All rights reserved.

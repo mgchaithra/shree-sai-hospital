@@ -32,7 +32,7 @@ export default function TestimonialsFaq() {
               What Our Patients & Families Say
             </h2>
             <p className="mt-3 text-base text-slate-600">
-              Real experiences from families across Talikot, Muddebihal, and Bijapur who trusted Shri Sai Hospital for their clinical needs.
+              Real experiences from families across Talikot, Muddebihal, and Bijapur who trusted Shree Sai Hospital for their clinical needs.
             </p>
           </div>
 

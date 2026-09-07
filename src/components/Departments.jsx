@@ -63,7 +63,9 @@ export default function Departments({ onOpenAppointment }) {
                   <img
                     src={dept.image}
                     alt={dept.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className={`w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ${
+                      dept.id === 'obstetrics-gynecology' ? 'object-top' : 'object-center'
+                    }`}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-slate-900/30 to-transparent"></div>
                   
@@ -106,9 +108,18 @@ export default function Departments({ onOpenAppointment }) {
 
                   {/* Doctor & Action CTA */}
                   <div className="pt-4 border-t border-slate-100 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
-                    <div className="text-xs text-slate-500">
-                      <span className="font-semibold text-slate-800 block">{dept.headDoctor}</span>
-                      <span>Consultant Specialist</span>
+                    <div className="flex items-center gap-2.5">
+                      {dept.id === 'obstetrics-gynecology' && (
+                        <img
+                          src="/images/dr-gangambika-patil.jpg"
+                          alt="Dr. Gangambika Patil"
+                          className="w-9 h-9 rounded-full object-cover object-top border-2 border-hospital-200 shadow-sm shrink-0"
+                        />
+                      )}
+                      <div className="text-xs text-slate-500">
+                        <span className="font-semibold text-slate-800 block">{dept.headDoctor}</span>
+                        <span>Consultant Specialist</span>
+                      </div>
                     </div>
 
                     <button

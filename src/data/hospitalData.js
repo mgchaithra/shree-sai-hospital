@@ -1,18 +1,18 @@
 export const hospitalData = {
-  name: "Shri Sai Hospital",
+  name: "Shree Sai Hospital",
   subtitle: "Multispeciality Hospital",
   tagline: "Advanced Multispeciality Healthcare in Talikot",
   heroDescription: "Committed to clinical excellence, compassionate care, and 24/7 emergency response for the community of Talikot and Bijapur district.",
-  aboutText: "Under the medical leadership of Dr. Gangambika Patil and a dedicated team of clinical specialists, Shri Sai Hospital is Talikot's premier modern healthcare institution. Delivering advanced multispeciality medical, maternity, surgical, and diagnostic care, our campus is equipped with modern Operation Theatres, an Intensive Care Unit (ICU), 24/7 Emergency & Trauma support, and comprehensive in-house pathology and radiology services.",
+  aboutText: "Under the medical leadership of Dr. Gangambika Patil and a dedicated team of clinical specialists, Shree Sai Hospital is Talikot's premier modern healthcare institution. Delivering advanced multispeciality medical, maternity, surgical, and diagnostic care, our campus is equipped with modern Operation Theatres, an Intensive Care Unit (ICU), 24/7 Emergency & Trauma support, and comprehensive in-house pathology and radiology services.",
   
   contact: {
-    emergencyNumber: "+91 91548 29740",
-    emergencyNumberRaw: "+919154829740",
-    secondaryPhone: "+91 91548 29741",
-    secondaryPhoneRaw: "+919154829741",
-    whatsappNumber: "919154829740",
-    whatsappDisplay: "+91 91548 29740",
-    whatsappMessage: "Hello Shri Sai Hospital, I would like to inquire about OPD consultation / emergency services.",
+    emergencyNumber: "+91 88613 51881",
+    emergencyNumberRaw: "+918861351881",
+    secondaryPhone: "+91 88613 51881",
+    secondaryPhoneRaw: "+918861351881",
+    whatsappNumber: "918861351881",
+    whatsappDisplay: "+91 88613 51881",
+    whatsappMessage: "Hello Shree Sai Hospital, I would like to inquire about OPD consultation / emergency services.",
     email: "contact@shrisaihospital.com",
     address: {
       line1: "Main Road",
@@ -23,7 +23,7 @@ export const hospitalData = {
       pincode: "586214",
       country: "India",
       landmark: "Near Main Circle, Main Road, Talikot",
-      fullAddress: "Shri Sai Hospital, Main Road, Talikot - 586214, Bijapur District, Karnataka, India"
+      fullAddress: "Shree Sai Hospital, Main Road, Talikot - 586214, Bijapur District, Karnataka, India"
     },
     googleMapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30564.88796853243!2d76.29548324419232!3d16.482811442111166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc7bc3bc4e5787b%3A0x6b63e808e08d6d6e!2sTalikoti%2C%20Karnataka%20586214!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
     googleMapsLink: "https://maps.google.com/?q=Talikot+Karnataka+586214+Hospital"
@@ -89,7 +89,7 @@ export const hospitalData = {
       ],
       headDoctor: "Dr. Gangambika Patil, MS (OBG), DGO",
       tag: "Dedicated Labor Suite",
-      image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80"
+      image: "/images/dr-gangambika-patil.jpg"
     },
     {
       id: "general-medicine",
@@ -259,7 +259,7 @@ export const hospitalData = {
       experience: "16+ Years Experience",
       opdTiming: "10:00 AM – 02:00 PM & 05:00 PM – 08:00 PM (Mon – Sat)",
       specialties: ["High-Risk Pregnancy Management", "Painless Normal Delivery", "Infertility Counseling", "Gynecological Laparoscopy & LSCS"],
-      image: "https://images.unsplash.com/photo-1594824813515-54641bbd067e?auto=format&fit=crop&w=500&q=80"
+      image: "/images/dr-gangambika-patil.jpg"
     },
     {
       id: "dr-prajwal-sarawad",
@@ -383,7 +383,7 @@ export const hospitalData = {
       name: "Basavaraj Patil",
       location: "Talikot, Bijapur",
       rating: 5,
-      comment: "When my father had a severe orthopedic emergency after an accident, Shri Sai Hospital team acted swiftly. The surgery was performed smoothly by Dr. Veerendra Patil, and the ICU staff provided caring attention. We are grateful to have such high standard medical care right here in Talikot.",
+      comment: "When my father had a severe orthopedic emergency after an accident, Shree Sai Hospital team acted swiftly. The surgery was performed smoothly by Dr. Veerendra Patil, and the ICU staff provided caring attention. We are grateful to have such high standard medical care right here in Talikot.",
       department: "Orthopedic Surgery"
     },
     {
@@ -391,7 +391,7 @@ export const hospitalData = {
       name: "Savitri Kulkarni",
       location: "Muddebihal",
       rating: 5,
-      comment: "We had our baby delivered at Shri Sai Hospital under Dr. Gangambika Patil's supervision. The maternity team and nurses were extremely gentle and professional. Highly recommend their gynecology and maternity facilities to all mothers in the district.",
+      comment: "We had our baby delivered at Shree Sai Hospital under Dr. Gangambika Patil's supervision. The maternity team and nurses were extremely gentle and professional. Highly recommend their gynecology and maternity facilities to all mothers in the district.",
       department: "Obstetrics & Maternity"
     },
     {
@@ -406,16 +406,16 @@ export const hospitalData = {
 
   faqs: [
     {
-      question: "Is Shri Sai Hospital emergency open 24 hours?",
+      question: "Is Shree Sai Hospital emergency open 24 hours?",
       answer: "Yes, our Emergency & Trauma Unit, Intensive Care Unit (ICU), in-house Pharmacy, and Ambulance services operate 24 hours a day, 7 days a week, including all public holidays."
     },
     {
-      question: "Where is Shri Sai Hospital located in Talikot?",
+      question: "Where is Shree Sai Hospital located in Talikot?",
       answer: "We are situated conveniently on Main Road, Talikot - 586214, Bijapur District, Karnataka, with easy vehicle access, wide ambulance parking, and wheelchair ramps."
     },
     {
       question: "How can I book an OPD consultation or doctor appointment?",
-      answer: "You can click the 'Call Hospital' button to dial directly (+91 91548 29740) or tap the 'WhatsApp Enquiry' button on this website to instantly message our reception team."
+      answer: "You can click the 'Call Hospital' button to dial directly (+91 88613 51881) or tap the 'WhatsApp Enquiry' button on this website to instantly message our reception team."
     },
     {
       question: "What diagnostic facilities are available in-house?",

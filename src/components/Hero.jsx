@@ -18,20 +18,20 @@ export default function Hero({ onOpenAppointment }) {
             {/* The Official Hospital Logo */}
             <div className="bg-white rounded-2xl p-1.5 flex items-center justify-center shrink-0">
               <img
-                src="/images/logo.jpg"
-                alt="Shri Sai Multispeciality Hospital Official Logo"
+                src="/images/logo.png"
+                alt="Shree Sai Multispeciality Hospital Official Logo"
                 className="h-16 sm:h-20 md:h-24 w-auto object-contain"
               />
             </div>
 
             {/* Brand Credential Pill */}
             <div className="text-center sm:text-left border-t sm:border-t-0 sm:border-l border-slate-200 pt-2 sm:pt-0 sm:pl-4">
-              <div className="flex items-center justify-center sm:justify-start gap-1.5 text-hospital-700 font-extrabold text-xs sm:text-sm uppercase tracking-wider">
-                <Sparkles className="w-4 h-4 text-hospital-600" />
-                <span>Premier Healthcare Institution</span>
+              <div className="flex items-center justify-center sm:justify-start gap-1.5 text-hospital-700 font-extrabold text-xs sm:text-sm">
+                <Sparkles className="w-4 h-4 text-hospital-600 shrink-0" />
+                <span>ಶ್ರೀ ಸಾಯಿ ಮಲ್ಟಿಸ್ಪೆಷಾಲಿಟಿ ಹಾಸ್ಪಿಟಲ್</span>
               </div>
-              <div className="text-slate-800 font-extrabold text-sm sm:text-base leading-tight">
-                Main Road, Talikot — Bijapur District
+              <div className="text-slate-800 font-extrabold text-sm sm:text-base leading-tight mt-0.5">
+                ತಾಳಿಕೋಟೆ - ಬಿಜಾಪುರ ಮುಖ್ಯ ರಸ್ತೆ
               </div>
               <div className="text-emerald-700 font-bold text-[11px] sm:text-xs flex items-center justify-center sm:justify-start gap-1.5 mt-0.5">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
@@ -145,7 +145,7 @@ export default function Hero({ onOpenAppointment }) {
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-2 border-slate-700/60 bg-slate-800 group">
                 <img
                   src="/images/hospital-entrance-aerial.jpg"
-                  alt="Shri Sai Multispeciality Hospital Talikot Main Entrance Campus"
+                  alt="Shree Sai Multispeciality Hospital Talikot Main Entrance Campus"
                   className="w-full h-80 sm:h-[420px] object-cover object-center transform group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/30 to-transparent"></div>
@@ -157,7 +157,7 @@ export default function Hero({ onOpenAppointment }) {
                     <span>24/7 Multi-Speciality Campus</span>
                   </div>
                   <h3 className="text-lg sm:text-xl font-extrabold text-white leading-snug">
-                    Shri Sai Multispeciality Hospital
+                    Shree Sai Multispeciality Hospital
                   </h3>
                   <p className="text-xs text-slate-300 mt-1">
                     Main Road, Talikot — Modern Grand Entrance, Continuous Stretcher Ramp & Gardens

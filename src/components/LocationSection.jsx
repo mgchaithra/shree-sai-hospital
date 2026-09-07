@@ -183,7 +183,7 @@ export default function LocationSection({ onOpenAppointment }) {
               {/* Map Iframe */}
               <div className="relative flex-1 w-full min-h-[380px] sm:min-h-[440px] rounded-xl overflow-hidden mt-3 border border-slate-200">
                 <iframe
-                  title="Shri Sai Hospital Talikot Google Maps Location"
+                  title="Shree Sai Hospital Talikot Google Maps Location"
                   src={hospitalData.contact.googleMapsEmbedUrl}
                   width="100%"
                   height="100%"

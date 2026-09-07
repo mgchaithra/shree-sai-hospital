@@ -87,14 +87,14 @@ export default function Navbar({ onOpenAppointment }) {
           <a 
             href="#" 
             className="flex items-center gap-2 group shrink-0 focus:outline-none"
-            aria-label="Shri Sai Multispeciality Hospital Talikot"
+            aria-label="Shree Sai Multispeciality Hospital Talikot"
           >
             <div className={`transition-all duration-300 rounded-xl bg-white p-1 sm:p-1.5 border border-slate-200 shadow-soft group-hover:shadow-card group-hover:border-hospital-400 flex items-center justify-center ${
               isScrolled ? 'h-14 sm:h-18' : 'h-16 sm:h-20 md:h-24'
             }`}>
               <img
-                src="/images/logo.jpg"
-                alt="Shri Sai Multispeciality Hospital Talikot Logo"
+                src="/images/logo.png"
+                alt="Shree Sai Multispeciality Hospital Talikot Logo"
                 className={`w-auto object-contain transition-all duration-300 ${
                   isScrolled ? 'max-h-12 sm:max-h-16' : 'max-h-14 sm:max-h-18 md:max-h-20'
                 }`}
@@ -161,8 +161,8 @@ export default function Navbar({ onOpenAppointment }) {
           {/* Centered Large Logo in Mobile Drawer */}
           <div className="p-4 bg-slate-50 rounded-2xl border border-slate-200 text-center mb-4 shadow-sm">
             <img
-              src="/images/logo.jpg"
-              alt="Shri Sai Multispeciality Hospital"
+              src="/images/logo.png"
+              alt="Shree Sai Multispeciality Hospital"
               className="h-20 sm:h-24 w-auto object-contain mx-auto mb-2"
             />
             <div className="text-xs font-bold text-slate-800 uppercase tracking-wider">
