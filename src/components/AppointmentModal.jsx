@@ -55,7 +55,7 @@ export default function AppointmentModal({ isOpen, onClose, initialDepartment = 
       `*Doctor:* ${formData.doctor}\n` +
       `*Preferred Date:* ${formData.preferredDate || 'Earliest available'}\n` +
       `*Notes / Symptoms:* ${formData.notes || 'Routine consultation'}\n\n` +
-      `_Sent via Shri Sai Hospital Website_`;
+      `_Sent via Shree Sai Hospital Website_`;
 
     const whatsappUrl = `https://wa.me/${hospitalData.contact.whatsappNumber}?text=${encodeURIComponent(text)}`;
     window.open(whatsappUrl, '_blank');
@@ -97,7 +97,7 @@ export default function AppointmentModal({ isOpen, onClose, initialDepartment = 
               </div>
               <h4 className="text-xl font-bold text-slate-900">Enquiry Dispatched!</h4>
               <p className="text-sm text-slate-600 max-w-xs mx-auto">
-                Your consultation details have been sent to Shri Sai Hospital's WhatsApp desk. Our reception team will confirm your slot shortly.
+                Your consultation details have been sent to Shree Sai Hospital's WhatsApp desk. Our reception team will confirm your slot shortly.
               </p>
               <div className="pt-4 flex flex-col sm:flex-row gap-3 justify-center">
                 <a

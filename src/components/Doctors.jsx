@@ -25,7 +25,7 @@ export default function Doctors({ onOpenAppointment }) {
             Our Specialist Doctors & Surgeons
           </h2>
           <p className="mt-3 text-base text-slate-600">
-            Dedicated clinicians providing ethical, evidence-based medical and surgical consultations at Shri Sai Hospital, Talikot.
+            Dedicated clinicians providing ethical, evidence-based medical and surgical consultations at Shree Sai Hospital, Talikot.
           </p>
         </div>
 

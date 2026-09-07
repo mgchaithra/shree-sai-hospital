@@ -40,7 +40,7 @@ export default function PhotoGallery() {
             Hospital Infrastructure & Facility Gallery
           </h2>
           <p className="mt-3 text-base text-slate-600">
-            A glimpse into the clean clinical environment, modern operation suites, and patient care rooms at Shri Sai Hospital.
+            A glimpse into the clean clinical environment, modern operation suites, and patient care rooms at Shree Sai Hospital.
           </p>
         </div>
 
@@ -153,7 +153,7 @@ export default function PhotoGallery() {
                 </div>
 
                 <div className="text-xs text-slate-500">
-                  Shri Sai Hospital • Talikot
+                  Shree Sai Hospital • Talikot
                 </div>
               </div>
 

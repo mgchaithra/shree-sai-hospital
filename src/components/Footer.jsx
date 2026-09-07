@@ -68,8 +68,8 @@ export default function Footer({ onOpenAppointment }) {
           <div className="lg:col-span-4 space-y-4">
             <div className="p-3 sm:p-4 bg-white rounded-2xl inline-block shadow-lg border border-slate-100">
               <img
-                src="/images/logo.jpg"
-                alt="Shri Sai Multispeciality Hospital"
+                src="/images/logo.png"
+                alt="Shree Sai Multispeciality Hospital"
                 className="h-16 sm:h-20 w-auto object-contain rounded-xl"
               />
             </div>
@@ -171,7 +171,10 @@ export default function Footer({ onOpenAppointment }) {
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-hospital-400 shrink-0" />
                 <a href={`tel:${hospitalData.contact.emergencyNumberRaw}`} className="hover:text-white transition-colors">
-                  {hospitalData.contact.emergencyNumber} / {hospitalData.contact.secondaryPhone}
+                  {hospitalData.contact.emergencyNumber}
+                  {hospitalData.contact.secondaryPhone && hospitalData.contact.secondaryPhone !== hospitalData.contact.emergencyNumber
+                    ? ` / ${hospitalData.contact.secondaryPhone}`
+                    : ''}
                 </a>
               </div>
 
@@ -197,7 +200,7 @@ export default function Footer({ onOpenAppointment }) {
         {/* Bottom Credits and Copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 text-center sm:text-left">
           <div>
-            © {new Date().getFullYear()} Shri Sai Multispeciality Hospital, Talikot. All rights reserved.
+            © {new Date().getFullYear()} Shree Sai Multispeciality Hospital, Talikot. All rights reserved.
           </div>
 
           <div className="flex items-center gap-4">
